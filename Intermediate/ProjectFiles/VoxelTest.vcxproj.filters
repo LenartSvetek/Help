@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\VoxelTest.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VoxelTest.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\VoxelTestEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\shadertoolsconfig.json" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RealtimeMeshComponent">
+      <UniqueIdentifier>{66E5962B-2D03-3E68-8A07-5291BAEA48E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source">
+      <UniqueIdentifier>{26D2E7FB-70D0-3C65-926C-3045833D55D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent">
+      <UniqueIdentifier>{7515B944-8D6C-34C2-9696-405855541733}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\RealtimeMeshComponent.Build.cs">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent</Filter>
+    </None>
+    <None Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\RealtimeMeshComponent.natvis">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent</Filter>
+    </None>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private">
+      <UniqueIdentifier>{AEE9D9A9-DDEF-397A-BD7E-F4879ADB243C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMesh.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshActor.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshCollision.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshComponent.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshComponentModule.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshConfig.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshCore.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshDataTypes.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshEngineSubsystem.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshGuard.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshLibrary.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshShared.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RealtimeMeshSimple.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Data">
+      <UniqueIdentifier>{7B76EC3B-C2AC-3D2C-8056-CC39DECE050E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Data\RealtimeMeshData.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Data\RealtimeMeshLOD.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Data\RealtimeMeshSection.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Data\RealtimeMeshSectionGroup.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Data</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Mesh">
+      <UniqueIdentifier>{CC47BE0E-D921-334D-9273-CA972CC2ACDA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Mesh\RealtimeMeshAlgo.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Mesh\RealtimeMeshBasicShapeTools.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Mesh\RealtimeMeshBlueprintMeshBuilder.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Mesh\RealtimeMeshDataConversion.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Mesh\RealtimeMeshSimpleData.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\Mesh</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy">
+      <UniqueIdentifier>{7A28C6A0-0811-39D4-BC76-91D20BB6BCDC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy\RealtimeMeshComponentProxy.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy\RealtimeMeshLODProxy.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy\RealtimeMeshProxy.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy\RealtimeMeshProxyUpdate.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy\RealtimeMeshSectionGroupProxy.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy\RealtimeMeshSectionProxy.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy\RealtimeMeshVertexFactory.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Private\RenderProxy</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public">
+      <UniqueIdentifier>{639D0FC5-13A7-3D69-BE3C-DADEC7FA95A0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMesh.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMeshActor.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMeshCollision.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMeshComponent.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMeshComponentModule.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMeshConfig.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMeshCore.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMeshEngineSubsystem.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMeshGuard.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMeshLibrary.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMeshSimple.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RealtimeMeshUpdate.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Data">
+      <UniqueIdentifier>{DB72602B-6626-3112-B3B0-4119226B1D03}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Data\RealtimeMeshData.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Data\RealtimeMeshLOD.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Data\RealtimeMeshSection.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Data\RealtimeMeshSectionGroup.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Data\RealtimeMeshShared.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Data</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh">
+      <UniqueIdentifier>{35479E4E-B0B9-3968-BC51-E455FC5FE315}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh\RealtimeMeshAlgo.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh\RealtimeMeshBasicShapeTools.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh\RealtimeMeshBlueprintMeshBuilder.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh\RealtimeMeshBuilder.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh\RealtimeMeshDataConversion.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh\RealtimeMeshDataStream.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh\RealtimeMeshDataTypes.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh\RealtimeMeshSimpleData.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\Mesh</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy">
+      <UniqueIdentifier>{3DA13904-AA04-339A-9051-14771E536467}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy\RealtimeMeshComponentProxy.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy\RealtimeMeshGPUBuffer.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy\RealtimeMeshLODProxy.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy\RealtimeMeshProxy.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy\RealtimeMeshProxyCommandBatch.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy\RealtimeMeshProxyShared.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy\RealtimeMeshSectionGroupProxy.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy\RealtimeMeshSectionProxy.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy\RealtimeMeshVertexFactory.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshComponent\Public\RenderProxy</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\RealtimeMeshComponent\RealtimeMeshComponent.uplugin">
+      <Filter>Plugins\RealtimeMeshComponent</Filter>
+    </None>
+    <Filter Include="Plugins\RealtimeMeshComponent\Config">
+      <UniqueIdentifier>{205C70EE-2AFE-3FB1-9337-5DAF69B4DEB7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RealtimeMeshComponent\Config\DefaultRealtimeMeshComponent.ini">
+      <Filter>Plugins\RealtimeMeshComponent\Config</Filter>
+    </None>
+    <None Include="..\..\Plugins\RealtimeMeshComponent\Config\FilterPlugin.ini">
+      <Filter>Plugins\RealtimeMeshComponent\Config</Filter>
+    </None>
+    <Filter Include="Plugins\RealtimeMeshComponent\Resources">
+      <UniqueIdentifier>{390BE81A-37E0-361D-A62A-593DC5AB4A31}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RealtimeMeshComponent\Resources\Icon128.png">
+      <Filter>Plugins\RealtimeMeshComponent\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshEditor">
+      <UniqueIdentifier>{8F7A6D87-F73A-3B03-AB09-82944EEE1CFC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshEditor\RealtimeMeshEditor.Build.cs">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshEditor</Filter>
+    </None>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshEditor\Private">
+      <UniqueIdentifier>{056FDA41-054D-34F1-88D1-C416403AC5A2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshEditor\Private\RealtimeMeshEditor.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshEditor\Public">
+      <UniqueIdentifier>{19BB9BF1-2CC1-3CCF-AA99-863F4072FF97}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshEditor\Public\RealtimeMeshEditor.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests">
+      <UniqueIdentifier>{1D3F9EEA-A742-3DAC-BAD0-D421CE1DCA81}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\RealtimeMeshTests.Build.cs">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests</Filter>
+    </None>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private">
+      <UniqueIdentifier>{DEC5D262-FB51-343F-B27C-F3E1A87E552F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\RealtimeMeshBufferLayoutTests.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\RealtimeMeshBuilderTests.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\RealtimeMeshElementTypeTests.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\RealtimeMeshMaterialIndicesTests.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\RealtimeMeshStreamConversionTests.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\RealtimeMeshTests.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\FunctionalTests">
+      <UniqueIdentifier>{6153FD42-ECA0-3176-971C-6C1325CDDABF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\FunctionalTests\RealtimeMeshBasicUsageActor.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\FunctionalTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\FunctionalTests\RealtimeMeshLatentUpdateTestActor.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\FunctionalTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\FunctionalTests\RealtimeMeshStressTestActor.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\FunctionalTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\FunctionalTests\RealtimeMeshUpdateTestActor.cpp">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Private\FunctionalTests</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public">
+      <UniqueIdentifier>{37E872A0-4A58-35E8-8B18-8A37BB5D0DB6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public\RealtimeMeshTests.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public\FunctionalTests">
+      <UniqueIdentifier>{CC61A452-4C13-39F2-9862-B8093D3719DC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public\FunctionalTests\RealtimeMeshBasicUsageActor.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public\FunctionalTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public\FunctionalTests\RealtimeMeshLatentUpdateTestActor.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public\FunctionalTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public\FunctionalTests\RealtimeMeshStressTestActor.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public\FunctionalTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public\FunctionalTests\RealtimeMeshUpdateTestActor.h">
+      <Filter>Plugins\RealtimeMeshComponent\Source\RealtimeMeshTests\Public\FunctionalTests</Filter>
+    </ClInclude>
+    <Filter Include="Source\VoxelTest">
+      <UniqueIdentifier>{D081C182-AB15-3CDB-A1E3-45A14363D447}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VoxelTest\VoxelTest.Build.cs">
+      <Filter>Source\VoxelTest</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\VoxelTest\VoxelTest.cpp">
+      <Filter>Source\VoxelTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VoxelTest\VoxelTest.h">
+      <Filter>Source\VoxelTest</Filter>
+    </ClInclude>
+    <Filter Include="Source\VoxelTest\Private">
+      <UniqueIdentifier>{ECB7440B-870D-33D8-8BEE-35CE6ED1F6AA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\VoxelTest\Private\WorldGen.cpp">
+      <Filter>Source\VoxelTest\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VoxelTest\Private\WorldGenNew.cpp">
+      <Filter>Source\VoxelTest\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\VoxelTest\Public">
+      <UniqueIdentifier>{3D901951-11CA-3C7A-BEC7-3F28618EF1C0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\VoxelTest\Public\WorldGen.h">
+      <Filter>Source\VoxelTest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VoxelTest\Public\WorldGenNew.h">
+      <Filter>Source\VoxelTest\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

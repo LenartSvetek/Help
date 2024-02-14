@@ -1,0 +1,11 @@
+{
+	"SourceFiles": [
+		"G:\\Projects\\UProjects\\VoxelTest\\Source\\VoxelTest\\VoxelTest.Build.cs",
+		"G:\\Projects\\UProjects\\VoxelTest\\Plugins\\RealtimeMeshComponent\\Source\\RealtimeMeshComponent\\RealtimeMeshComponent.Build.cs",
+		"G:\\Projects\\UProjects\\VoxelTest\\Plugins\\RealtimeMeshComponent\\Source\\RealtimeMeshEditor\\RealtimeMeshEditor.Build.cs",
+		"G:\\Projects\\UProjects\\VoxelTest\\Plugins\\RealtimeMeshComponent\\Source\\RealtimeMeshTests\\RealtimeMeshTests.Build.cs",
+		"G:\\Projects\\UProjects\\VoxelTest\\Source\\VoxelTest.Target.cs",
+		"G:\\Projects\\UProjects\\VoxelTest\\Source\\VoxelTestEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
